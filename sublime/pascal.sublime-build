@@ -1,0 +1,11 @@
+{
+    "cmd": ["fpc", "${file_path}/${file_base_name}"],
+    "selector": "source.pascal",
+    "variants": [
+        {
+            "cmd": ["start", "cmd", "/c", "$file_base_name.exe & pause"],
+            "name": "Run",
+            "shell": true
+        }
+    ]
+}

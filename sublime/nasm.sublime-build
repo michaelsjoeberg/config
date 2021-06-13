@@ -1,0 +1,6 @@
+{
+	"shell": true,
+	"cmd": ["nasm -f macho64 ${file} && ld -no_pie -macosx_version_min 10.7.0 -o ${file_path}/${file_base_name} ${file_path}/${file_base_name}.o && ${file_path}/${file_base_name}"],
+	"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+	"working_dir": "${file_path}",
+}

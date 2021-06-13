@@ -1,0 +1,6 @@
+{
+    "cmd": ["scala", "$file"],
+    "path": "$PATH:/usr/local/bin",
+    "file_regex": "^(.+):(\\d+): .+: (.+)",
+    "selector": "source.scala"
+}

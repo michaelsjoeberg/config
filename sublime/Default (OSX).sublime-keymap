@@ -1,0 +1,29 @@
+[
+	{
+	    "keys": ["super+shift+l"],
+	    "command": "set_setting",
+	    "args":
+	    {
+	        "setting": "color_scheme",
+	        "value": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme"
+	    }
+	},
+	{
+	    "keys": ["super+shift+d"],
+	    "command": "set_setting",
+	    "args":
+	    {
+	        "setting": "color_scheme",
+	        "value": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
+	    }
+	},
+	{
+	    "keys": ["super+shift+m"],
+	    "command": "set_setting",
+	    "args":
+	    {
+	        "setting": "color_scheme",
+	        "value": "Packages/Dracula Color Scheme/Dracula.tmTheme"
+	    }
+	}
+]
